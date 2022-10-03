@@ -8,11 +8,16 @@ public class calculator {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter operater");
         char ch=sc.next().trim().charAt(0);
+        
+        // user have to enter number for sum
 
             System.out.println("Enter first");
             int a = sc.nextInt();
             System.out.println("Enter second number");
             int b = sc.nextInt();
+        
+        // Calculation code      
+        
             if (ch == '+' || ch == '-' || ch == '/' || ch == '*' || ch == '%') {
                 if (ch == '+')
                     System.out.println(a + b);
